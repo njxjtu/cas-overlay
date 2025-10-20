@@ -3,6 +3,10 @@ Apereo CAS WAR Overlay Template
 
 WAR Overlay Type: `cas-overlay`
 
+# CAS overlay initializer(Heroku)
+- https://getcas.apereo.org/ui
+
+
 # Versions
 
 - CAS Server `7.3.0`
