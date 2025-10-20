@@ -26,3 +26,31 @@ replay_pid*
 # Gradle files
 .gradle/
 build/
+
+# Spring Boot specific
+spring-boot-devtools.properties
+spring-boot-loader/
+spring-boot-loader.jar
+spring-boot-*.jar
+src/main/resources/*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+bin/
+tmp/
+build/
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+.nb-configuration.xml   
