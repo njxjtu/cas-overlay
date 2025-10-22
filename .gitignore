@@ -54,3 +54,6 @@ nbbuild/
 dist/
 .nb-gradle/
 .nb-configuration.xml   
+
+# VS Code
+.vscode/
