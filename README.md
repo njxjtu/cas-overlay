@@ -49,6 +49,11 @@ This can either be done using the JDK's `keytool` utility or via the following c
 Use the password `changeit` for both the keystore and the key/certificate entries. 
 Ensure the keystore is loaded up with keys and certificates of the server.
 
+To change the directory of the generated keystore, change certDir in gradle.properties.
+
+## Development
+- To run as Spring boot application:
+  ./gradlew bootRun --args='--spring.config.additional-location=file:./src/main/resources/ --cas.standalone.configuration-directory=./etc/cas/config'
 ## Extension Modules
 
 Extension modules may be specified under the `dependencies` block of the [Gradle build script](build.gradle):
