@@ -302,7 +302,7 @@ dependencies {
     //implementation "org.apereo.cas:cas-server-support-jdbc"
     //implementation "org.apereo.cas:cas-server-support-token-webflow"
     //implementation "org.apereo.cas:cas-server-support-ldap"
-    //implementation "org.apereo.cas:cas-server-support-mongo"
+    implementation "org.apereo.cas:cas-server-support-mongo"
     //implementation "org.apereo.cas:cas-server-support-surrogate-webflow"
     //implementation "org.apereo.cas:cas-server-support-token-tickets"
     //implementation "org.apereo.cas:cas-server-support-logback"

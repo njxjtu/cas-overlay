@@ -53,7 +53,7 @@ To change the directory of the generated keystore, change certDir in gradle.prop
 
 ## Development
 - To run as Spring boot application:
-  ./gradlew bootRun --args='--spring.config.additional-location=file:./src/main/resources/ --cas.standalone.configuration-directory=./etc/cas/config'
+  ./gradlew bootRun --args='--cas.standalone.configuration-directory=./etc/cas/config'
 ## Extension Modules
 
 Extension modules may be specified under the `dependencies` block of the [Gradle build script](build.gradle):
