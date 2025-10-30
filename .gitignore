@@ -6,6 +6,7 @@
 
 # Configuration file
 etc/cas/config/*
+etc/cas/services/*
 # BlueJ files
 *.ctxt
 
