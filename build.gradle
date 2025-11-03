@@ -315,6 +315,11 @@ dependencies {
     implementation "org.apereo.cas:cas-server-support-themes"
     //implementation "org.apereo.cas:cas-server-support-ws-idp"
     ///implementation "org.apereo.cas:cas-server-support-captcha"
+    implementation "org.apereo.cas:cas-server-support-json-service-registry"
+    implementation "org.apereo.cas:cas-server-core-services-registry"
+
+    // In build.gradle, inside the 'dependencies' block
+
 
 
     

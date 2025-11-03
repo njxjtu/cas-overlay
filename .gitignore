@@ -7,6 +7,8 @@
 # Configuration file
 etc/cas/config/*
 etc/cas/services/*
+.DS_Store
+
 # BlueJ files
 *.ctxt
 

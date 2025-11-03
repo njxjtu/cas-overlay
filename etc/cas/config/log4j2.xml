@@ -7,8 +7,8 @@ Set -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContext
 <Configuration monitorInterval="5" packages="org.apereo.cas.logging">
     <Properties>
         <Property name="baseDir">/var/log</Property>
-        <Property name="cas.log.level">info</Property>
-        <Property name="spring.webflow.log.level">warn</Property>
+        <Property name="cas.log.level">trace</Property>
+        <Property name="spring.webflow.log.level">debug</Property>
         <Property name="spring.security.log.level">info</Property>
         <Property name="spring.cloud.log.level">warn</Property>
         <Property name="spring.web.log.level">warn</Property>
@@ -105,7 +105,7 @@ Set -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContext
         <Logger name="org.apereo.cas.web.flow" level="${sys:cas.log.level}" />
         <Logger name="org.apereo.cas.web.CasWebApplication" level="${sys:cas.log.level}"/>
 
-        <Logger name="org.apereo.inspektr" additivity="false" level="info">
+        <Logger name="org.apereo.inspektr" additivity="false" level="debug">
             <AppenderRef ref="casConsole"/>
             <AppenderRef ref="casFile"/>
             <AppenderRef ref="casAudit"/>
@@ -158,7 +158,7 @@ Set -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContext
         <Logger name="org.apache.cxf" level="warn" />
         <Logger name="org.apache.http" level="warn" />
 
-        <Root level="warn" includeLocation="${sys:log.include.location}">
+        <Root level="trace" includeLocation="${sys:log.include.location}">
             <AppenderRef ref="casFile"/>
             <AppenderRef ref="casConsole"/>
             <AppenderRef ref="${sys:log.stacktraceappender}"/>
